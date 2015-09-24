@@ -1,0 +1,64 @@
+/* cBB Chat
+--------------------------------------------- */
+
+#chat-body {
+    background-color: transparent;
+    background-image: url("./images/bg_list.gif");
+    background-repeat: repeat-x;
+    border-radius: 7px;
+}
+
+#chat-content {
+    background: none repeat scroll 0 0 #f5f3f5;
+      margin: 15px -5px;
+}
+.chat-row:hover {
+    background-color: #F5F3F5;
+}
+
+#chat-left-panel > div {
+    background: url("./images/bag_cha_top.png") top center, url("./images/bag_chat.png") bottom center scroll #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-origin: padding-box;
+}
+
+#chat-right-panel, #chat-conversation-container, #chat-tabs li.active, #chat-toolbar li.active, .ic-box  {
+	 background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4);
+}
+
+ .ic-row-title.avatar-margin {
+    background: linear-gradient(to bottom, #cc9900, #e9e9e9) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    margin-left: 48px;
+    padding: 4px;
+     box-shadow: 0 10px 5px rgba(50, 50, 50, 0.5);
+}
+
+.ic-row-text.avatar-margin {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #FFFFFF;
+    border-radius: 0 8px 8px 8px;
+    box-shadow: 0 10px 5px rgba(50, 50, 50, 0.5);
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    font-stretch: expanded !important;
+    font-style: italic !important;
+    margin-left: 47px;
+    padding: 5px 10px;
+    word-wrap: break-word;
+    font-weight: bold;
+font-size:12px;
+}
+
+.chat-row:nth-child(2n) {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+}
+.chat-row:hover {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
+}
+
+@media only screen and (max-width: 500px) {
+  .ic-row-text.avatar-margin{
+    margin-left: 0;
+  }
+}
